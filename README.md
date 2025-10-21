@@ -1,6 +1,9 @@
 # ao-website 💼
 Ce projet vise à fournir une plateforme de suivi des appels d'offres, permettant une veille efficace sur les marchés publics. Le site, offre un accès convivial et complet aux données d'appels d'offres.
 
+🎥 [Hello-AO Demo](https://github.com/hedi-mac/hedi-mac.github.io/blob/main/images/Hello-AO.mp4)
+<video src="https://hedi-mac.github.io/images/Hello-AO.mp4" controls width="600"></video>
+
 ## Configuration ⚙️
 ### Prérequis
 - Docker
@@ -12,7 +15,7 @@ Ce projet vise à fournir une plateforme de suivi des appels d'offres, permettan
     cd ao-website
 2. **Lancer l'application avec Makefile :**
     ```bash
-    make up
+    make start
 Cela construira les conteneurs et lancera l'application à l'aide de Docker Compose.
 
 3. **Générer des marchés fictifs :**
