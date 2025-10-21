@@ -1,0 +1,11 @@
+# ENV #
+.env
+# Django #
+*.log
+*.pot
+*.pyc
+**/__pycache__
+ao_website/apps/media/**
+ao_website/apps/loac-cdn/static/**
+# Node #
+node_modules
